@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Formulir Lamaran</title>
+	<link href="http://www.inti.co.id/templates/smartone/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+	<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+	<link rel="stylesheet" href="../css/master.css">
+	<link rel="stylesheet" href="../css/responsive.css">
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+	<script type="text/javascript" src="../js/input.js"></script>
+</head>
+<body>
+	<div class="application-form" style="margin-top: 0;">
+				<div class="title-application-form">
+					<h1>application form</h1>
+					<p>let's start your career with us here</p>
+				</div>
+				<div class="form-application">
+					<form class="" action="proses_input.php" method="post" id="form-inputan" enctype="multipart/form-data">
+			          <div class="input-group-formulir wrap-title-lamaran">
+									<a href="http://localhost/realptinti/"><i class="fas fa-chevron-left"></i> Kembali</a>
+			            <h1 class="title-lamaran"><i class="fas fa-address-card"></i> Application Form</h1>
+			          </div>
+			          <div class="input-group-formulir flex">
+			            <div class="wrap-foto-lamaran">
+			              <div class="foto-lamaran">
+			                <img src="#" alt="" id="preview">
+			              </div>
+			              <input type="file" name="fot" value="" class="FOTO" id="photo-lamaran">
+			              <label for="photo-lamaran" class="label-foto-lamaran"><i class="fas fa-plus"></i> Pas Foto 3 x 4</label>
+			            </div>
+			            <div id="keterangan-foto"></div>
+			          </div>
+			          <div class="input-group-formulir flex">
+			            <input type="text" name="nm" value="" id="nama" class="form-control-formulir w-100" autocomplete="off">
+			            <label for="nama" class="floating"><i class="fas fa-user"></i> Nama Lengkap</label>
+			          </div>
+			          <div class="input-group-formulir flex tanggal">
+			            <input type="text" name="tmpt" value="" id="tempat" class="form-control-formulir" autocomplete="off">
+			            <label for="tempat" class="floating"><i class="fas fa-calendar"></i> Tempat, Tanggal Lahir</label>
+			            <input type="date" name="tgl" value="" dateformat="d M y" class="input-date" id="tanggal">
+			          </div>
+			          <div class="input-group-formulir flex">
+			            <input type="tel" name="nt" value="" id="telepon" class="form-control-formulir w-100" autocomplete="off">
+			            <label for="telepon" class="floating"><i class="fas fa-phone"></i> No Telepon</label>
+			          </div>
+			          <div class="input-group-formulir flex">
+			            <input type="email" name="e" value="" id="email" class="form-control-formulir w-100" autocomplete="off">
+			            <label for="email" class="floating"><i class="fas fa-envelope"></i> E-mail</label>
+			          </div>
+			          <div class="input-group-formulir flex lampiran">
+			                <input type="file" name="l-ktp" value="" id="l-1" class="KTP" autocomplete="off">
+			                <label for="l-1"><span id="span-file1"><i class="fas fa-address-card"></i> Scan Ktp</span></label>
+			                <input type="file" name="l-ijasah" value="" id="l-2" class="IJAZAH" autocomplete="off">
+			                <label for="l-2"><span id="span-file2"><i class="fas fa-file"></i> Scan Ijazah</span></label>
+			                <input type="file" name="l-riwayat" value="" id="l-3" class="CV" autocomplete="off">
+			                <label for="l-3"><span id="span-file3"><i class="fas fa-book"></i> Riwayat Hidup</span></label>
+			                <input type="file" name="l-skck" value="" id="l-4" class="SKCK" autocomplete="off">
+			                <label for="l-4"><span id="span-file4"><i class="fas fa-fingerprint"></i> Scan Skck</span></label>
+			          </div>
+			          <div class="input-group-formulir flex">
+			            <div id="keterangan-lampiran"></div>
+			          </div>
+			          <div class="input-group-formulir flex">
+			            <textarea name="al" value="" id="alamat" class="form-control-formulir w-100"></textarea>
+			            <label for="alamat" class="floating"><i class="fas fa-map-marker-alt"></i> Alamat Lengkap</label>
+			          </div>
+			          <div class="input-group-formulir flex">
+			            <div id="keterangan-hasil-formulir"></div>
+			          </div>
+			          <div class="input-group-formulir flex">
+			            <button type="submit" name="selesai" id="selesai" disabled="disabled">Harap Isi Dengan Benar</button>
+			          </div>
+			        </form>
+				</div>
+			</div>
+</body>
+</html>

@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>E-Lamaran Pt.Inti</title>
+	<link href="http://www.inti.co.id/templates/smartone/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+	<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+	<link rel="stylesheet" href="assets/css/master.css">
+	<link rel="stylesheet" href="assets/css/responsive.css">
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+	<script src="assets/js/master.js" type="text/javascript"></script>
+	<script type="text/javascript" src="assets/js/input.js"></script>
+	<script type="text/javascript" src="assets/js/login.js"></script>
+</head>
+<body>
+	<section class="landing-section" id="top">
+		<div class="hidding-nav">
+			<ul id="example-one">
+						<li class="current-page-item"><a href="#top" title="" id="" class="landing-nav-link">Home</a></li>
+						<li><a href="#our" title="" id="" class="landing-nav-link">product</a></li>
+						<li><a href="#about" title="" id="" class="landing-nav-link">About us</a></li>
+						<li><a href="#" title="" id="show-modal-hiding" class="landing-nav-link active">Login</a></li>
+					</ul>
+		</div>
+		<div class="modal-wrap" id="modal-wrap">
+			<div class="modal-content">
+				<div class="modal-header">
+					<span>Login</span>
+					<button id="close-modal"><i class="fas fa-times"></i></button>
+				</div>
+				<div class="modal-body">
+					<div class="wrap-modal-form">
+						<form action="assets/content/login.php" method="POST" id="form_login">
+							<div class="form-control-modal">
+							<input type="text" class="input-modal" name="usr" value="" placeholder="" id="username-modal">
+							<label class="floating-modal" for="username">Username</label>
+						</div>
+						<div class="form-control-modal">
+							<input type="password" class="input-modal" name="psw" value="" placeholder="" id="password-modal">
+							<label class="floating-modal" for="password">Password</label>
+						</div>
+						<div class="form-control-modal">
+							<div id="keterangan"></div>
+						</div>
+						<div class="form-control-modal">
+							<button type="submit" id="submit">Login</button>
+						</div>
+						<hr class="ruler">
+						<div class="form-control-modal" style="justify-content: space-between;">
+							<a href="https://facebook.com" target="_blank" title="" onclick="window.open('https://facebook.com','newwindow','width=600,height=700'); 
+              return false;"><i class="fab fa-facebook-f"></i></a>
+							<a href="https://twitter.com" target="_blank" title="" onclick="window.open('https://twitter.com','newwindow','width=600,height=700'); 
+              return false;"><i class="fab fa-twitter"></i></a>
+							<a href="" target="_blank" title="" onclick="window.open('https://plus.google.com','newwindow','width=600,height=700');return false;"><i class="fab fa-google-plus-g"></i></a>
+						</div>
+						</form>
+						<!-- <div class="form-control-modal">
+							<input type="checkbox" name="" value="" placeholder="" id="remember">
+							<label for="remember">Remember me</label>
+						</div> -->
+					</div>
+				</div>
+			</div>
+		</div>
+		<header id="landing-header" class="landing-header">
+			<div class="landing-container-nav">
+				<div class="logo"><img src="http://inti.co.id/images/logo-inti3.png" alt=""></div>
+				<nav class="landing-nav">
+					<ul id="example-one">
+						<li class="current-page-item"><a href="#top" title="" id="" class="landing-nav-link"><i class="fas fa-home"></i> Home</a></li>
+						<li><a href="#our" title="" id="" class="landing-nav-link"><i class="fas fa-box-open"></i> product</a></li>
+						<li><a href="#about" title="" id="" class="landing-nav-link"><i class="fas fa-users"></i> About us</a></li>
+						<li><a href="#" title="" id="show-modal" class="landing-nav-link active">Login</a></li>
+					</ul>
+				</nav>
+				<button class="button-menu-hide" id="show-hidding-menu"><i class="fas fa-bars"></i></button>
+			</div>
+		</header>
+		<div class="wrap-landing-slider">
+			<div class="jumbo-text-slider">
+				<h1 class="animated slideInUp">Welcome to <span style="text-transform: lowercase;">i</span>nti Online application</h1>
+				<p class="animated slideInDown">Are you ready to join with us ?</p>
+				<hr class="batas">
+				<div class="gs-button">
+					<a href="assets/content/formulir.html" title="" class="animated slideInLeft">Get Started</a>
+					<a href="#history" title="" class="learn-more animated slideInRight">Learn More</a>
+				</div>
+			</div>
+			<div class="landing-slider">
+				<div class="image-slider"><img src="assets/img/s1.jpg" alt=""></div>
+				<div class="image-slider"><img src="assets/img/s2.jpg" alt=""></div>
+			</div>
+			<span class="button-scroll"><a href="#history" class="animated infinite pulse"><i class="fas fa-chevron-down"></i></a></span>
+		</div>
+
+		<section class="second-section-landing">
+			<div class="history-landing" id="history">
+				<div class="box-history-landing">
+					<div class="inner-box-history">
+						<span><i class="fas fa-lightbulb"></i></span>
+					</div>
+					<strong>innovation</strong>
+					<div class="wadah-text">
+						<p>Membangun sinergi inovasi nasional dalam rangka menyediakan solusi cerdas di bidang telekomunikasi,
+            			elektronika, dan smart energy bagi peningkatan hidup masyarakat yang lebih baik</p>
+            		</div>
+				</div>
+				<div class="box-history-landing">
+					<div class="inner-box-history">
+						<span><i class="fas fa-briefcase"></i></span>
+					</div>
+					<strong>independent</strong>
+					<div class="wadah-text">
+						<p>Membangun kemandirian nasional di bidang ICT dan smart energy untuk mewujudkan industri yang profesional,
+               			efektif, efisien, terintegrasi, dan inovatif.</p>
+					</div>
+				</div>
+				<div class="box-history-landing">
+					<div class="inner-box-history">
+						<span><i class="fas fa-chart-line"></i></span>
+					</div>
+					<strong>growth</strong>
+					<div class="wadah-text">
+						<p>Memaksimalkan nilai perusahaan serta mengupayakan pertumbuhan yang berkesimbungan.</p>
+					</div>
+				</div>
+				<div class="box-history-landing">
+					<div class="inner-box-history">
+						<span><i class="fas fa-people-carry"></i></span>
+					</div>
+					<strong>prime mover</strong>
+					<div class="wadah-text">
+						<p>Berperan sebagai penggerak utama bangkitnya industri dalam negri.</p>
+					</div>
+				</div>
+			</div>
+			<div class="our-history">
+				<div class="box-our-history our-img"><img src="assets/img/cb303-cypak.svg" alt=""></div>
+				<div class="box-our-history">
+					<h1>Our History</h1>
+					<p>Perusahaan didirikan sebagai evolusi dari kerja sama PN Telekomunikasi dan Siemen AG pada tahun 1966. Kerja sama ini berlanjut pada pembentukan Pabrik Telepon dan Telegraf (PTT) sebagai Bagian dari LPP Postel pada tahun 1968. Pada tahun 1974, bagian ini dipisahkan dari LPP Postel menjadi sebuah Perseroan Terbatas yang berada di bawah naungan Direktorat Jenderal Pos dan Telekomunikasi.</p>
+				</div>
+			</div>
+			<div class="our-performance" id="our">
+				<div class="title-performance">
+					<h1>our superior product</h1>
+					<p>this is the result of our work so far</p>
+				</div>
+				<img class="image-products" src="assets/img/p4.png" alt="" style="position: absolute;z-index: 2;left: 0%;bottom: -23%;height: 25em;">
+				<!-- 
+				<img class="image-products" src="assets/img/p2.png" alt="" style="position: absolute;z-index: 2;left: -7%;bottom: 5%;height: 25em;">
+				<img class="image-products" src="assets/img/p3.png" alt="" style="position: absolute;z-index: 2;right: -7%;top: 5%;height: 20em;"> -->
+			</div>
+			<div class="content-performance">
+				<span>
+					<p class="big-text-product">BEBERAPA PRODUK KAMI<p>
+					<p class="little-text-product">Tidak hanya produk tersebut, kami juga memproduksi beberapa produk lainnya antara lain E-KTP Reader, Sindila, Meteran Gas Prabayar dan masih banyak lagi produk produk unggulan kami.</br></br>
+					<a href="#assets" title="" class="selengkapnya">Selengkapnya</a>
+					</p>
+				</span>
+				<img class="image-products" src="assets/img/p1.png" alt="" style="margin-right: 6%;">
+				<!-- <div class="box-content-performance">
+					<div class="box-inner-performance">
+						<h1>Mobile Pos Terminal</h1>
+						<p>For financial payment, mobile payment, coupons, outdoor data collection and processing nenbershio management, third party operator payment, lottery, logistics, etc.</p>
+					</div>
+					<div class="box-content-image" id="bc-1">
+						<img src="assets/img/p1.png">
+					</div>
+				</div>
+
+				<div class="box-content-performance">
+					<div class="box-inner-performance">
+						<h1>KWH Meter</h1>
+						<p>RIMA 1110 is Prepaid Electric Meter single phase tokens that meet the standards SPLN D3.005-1: 2008, IEC 62503-21 and IEC 62055-31 / 41/51 (STS).</p>
+					</div>
+					<div class="box-content-image" id="bc-2">
+						<img src="assets/img/p2.png">
+					</div>
+				</div>
+
+				<div class="box-content-performance">
+					<div class="box-inner-performance">
+						<h1>Meter Gas Prabayar (IGM - 1.6Q)</h1>
+						<p>Merupakan alat ukur untuk gas yang mengalir, yang dipakai sebagai pengukur volume dan besarnya biaya pemakaian. Alat ini bekerja pada tekanan tertentu dan terpasang keypad yang berfungsi untuk menginput nomor seri token di saat pengisian. Gas meter ini menggunakan sistem prepaid yang berarti penggunaan gas baru bisa dilakukan setelah dilakukan pembayaran.</p>
+					</div>
+					<div class="box-content-image" id="bc-3">
+						<img src="assets/img/p3.png">
+					</div>
+				</div>
+
+				<div class="box-content-performance">
+					<div class="box-inner-performance">
+						<h1>Energy Limiter</h1>
+						<p>Merupakan perangkat pembantas energi yang dipasang dirumah dan berfungsi sebagai Kwh Limiter. Alat ini dipasang di setiap rumah dan bekerja sebagai pemutus arus listrik jika energi yang di gunakan sudah mencapai nilai yang telah ditetapkan sebelumnya.</p>
+					</div>
+					<div class="box-content-image" id="bc-4">
+						<img src="assets/img/p4.png">
+					</div>
+				</div> -->
+
+			</div>
+			<footer id="about">
+
+				<div class="div-left-footer">
+					<span><i class="fas fa-map-marker-alt"></i><p>Jl. Moh. Toha No. 77 Cigereleng Regol Bandung Jawa Barat</p></span>
+					<span><i class="fas fa-phone"></i><p>Tel : +62-22-5201501 Fax : +62-22-5202444</p></span>
+					<span><i class="fas fa-envelope"></i><p><a href="mailto:info@inti.co.id" "email me">info@inti.co.id</a></p></span>
+				</div>
+
+
+				<div class="div-right-footer">
+					<p><strong>About The Company</strong></p>
+					<p class="company-text">PT Industri Telekomunikasi Indonesia atau disingkat INTI adalah Badan Usaha Milik Negara yang bergerak di bidang telekomunikasi yang selama lebih dari 4 dasawarsa berperan sebagai pemasok utama pembangunan jaringan telepon nasional yang diselenggarakan oleh PT Telkom Indonesia Tbk dan PT Indosat Tbk.</p>
+					<div class="footer-sosmed">
+						<a href="https://www.facebook.com/PT-INTI-108598265856613/" title=""><i class="fab fa-facebook"></i></a>
+						<a href="https://twitter.com/pt_inti" title=""><i class="fab fa-twitter"></i></a>
+						<a href="https://www.instagram.com/pt_inti_persero/?hl=id" title=""><i class="fab fa-instagram"></i></a>
+						<a href="" title=""><i class="fab fa-google-plus-g"></i></a>
+					</div>
+				</div>
+				<button id="author"><i class="fas fa-chevron-right"></i></button>
+			</footer>
+			<footer id="author-page">
+
+				<div class="title-author"><h1>About The Creators</h1></div>
+
+				<div class="wrap-author-info">
+					<div class="author-photo"><img src="assets/img/aku.png" alt=""></div>
+					<span class="author-name">
+						<p><strong>Dicki Maulana Yusuf <i>( Web Developer )</i></strong></p>
+						<p class="instagram-author"><a href="https://www.instagram.com/dickimaulana10" target="blank" title="">@dickimaulana10</a></p>
+						<p class="caption"><i>" Saya Hanyalah Manusia Biasa Yang Tertarik Pada Dunia IT "</i></p>
+					</span>
+				</div>
+
+
+				<div class="wrap-author-info">
+					<div class="author-photo"><img src="assets/img/arie.png" alt=""></div>
+					<span class="author-name">
+						<p><strong>Ari Mustofa <i>( Designer )</i></strong></p>
+						<p class="instagram-author"><a href="https://www.instagram.com/ariee12_" target="blank" title="">@ariee12_</a></p>
+						<p class="caption"><i>"Bekerja Untuk Tidak Bekerja"</i></p>
+					</span>
+				</div>
+
+				<div class="wrap-author-info">
+					<div class="author-photo"><img src="assets/img/dapa.png" alt=""></div>
+					<span class="author-name">
+						<p><strong>Dafa Hibrizi <i>( Designer )</i></strong></p>
+						<p class="instagram-author"><a href="https://www.instagram.com/darksushi_" target="blank" title="">@darksushi_</a></p>
+						<p class="caption"><i>"Kosong adalah berisi, berisi adalah kosong"</i></p>
+					</span>
+				</div>
+			</footer>
+		</section>
+	</section>
+</body>
+</html>
